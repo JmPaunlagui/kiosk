@@ -1,6 +1,6 @@
 ﻿namespace KioskFINALFINAL.UCchild.GetInfo
 {
-    partial class ucExamPermit
+    partial class ucSOA
     {
         /// <summary> 
         /// Required designer variable.
@@ -40,19 +40,19 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(1099, 225);
             this.label2.TabIndex = 3;
-            this.label2.Text = "In case you lost your exam permit you need to get a new permit to registrar but i" +
-    "t has a charge that cost 100 pesos as a consequence because you\'ve lost it.";
+            this.label2.Text = "Go to the registrar and ask for your SOA, bring your assessment with you then you" +
+    " will get your Statement of Account (SOA).\r\n\r\n";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(343, 183);
+            this.label1.Location = new System.Drawing.Point(488, 183);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(632, 40);
+            this.label1.Size = new System.Drawing.Size(308, 40);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Just in case you lost your exam permit";
+            this.label1.Text = "How to get S.O.A?";
             // 
             // button1
             // 
@@ -72,7 +72,7 @@
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // ucExamPermit
+            // ucSOA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,7 +80,7 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "ucExamPermit";
+            this.Name = "ucSOA";
             this.Size = new System.Drawing.Size(1280, 693);
             this.ResumeLayout(false);
             this.PerformLayout();

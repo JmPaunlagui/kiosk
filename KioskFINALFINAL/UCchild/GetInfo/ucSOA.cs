@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace KioskFINALFINAL.UCchild.GetInfo
 {
-    public partial class ucID : UserControl
+    public partial class ucSOA : UserControl
     {
-        public ucID()
+        public ucSOA()
         {
             InitializeComponent();
         }

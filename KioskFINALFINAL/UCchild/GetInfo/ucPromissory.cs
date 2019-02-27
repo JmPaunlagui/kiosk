@@ -16,5 +16,16 @@ namespace KioskFINALFINAL.UCchild.GetInfo
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (!Form1.Instance.PnlContainer.Controls.ContainsKey("ucMainn"))
+            {
+                ucMainn main = new ucMainn();
+                main.Dock = DockStyle.Fill;
+                Form1.Instance.PnlContainer.Controls.Add(main);
+            }
+            Form1.Instance.PnlContainer.Controls["ucMainn"].BringToFront();
+        }
     }
 }

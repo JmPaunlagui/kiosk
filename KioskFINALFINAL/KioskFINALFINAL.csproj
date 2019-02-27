@@ -143,17 +143,23 @@
     <Compile Include="UCchild\GetInfo\ucID.Designer.cs">
       <DependentUpon>ucID.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCchild\GetInfo\ucMainn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucMainn.Designer.cs">
+      <DependentUpon>ucMainn.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCchild\GetInfo\ucPromissory.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCchild\GetInfo\ucPromissory.Designer.cs">
       <DependentUpon>ucPromissory.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\GetInfo\usSOA.cs">
+    <Compile Include="UCchild\GetInfo\ucSOA.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCchild\GetInfo\usSOA.Designer.cs">
-      <DependentUpon>usSOA.cs</DependentUpon>
+    <Compile Include="UCchild\GetInfo\ucSOA.Designer.cs">
+      <DependentUpon>ucSOA.cs</DependentUpon>
     </Compile>
     <Compile Include="UCchild\SchoolPersonnel\ucAcademic.cs">
       <SubType>UserControl</SubType>
@@ -245,6 +251,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UCchild\Calendar\ucUPCOMINGE.resx">
       <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucClearance.resx">
+      <DependentUpon>ucClearance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucExamPermit.resx">
+      <DependentUpon>ucExamPermit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucGoodMoral.resx">
+      <DependentUpon>ucGoodMoral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucID.resx">
+      <DependentUpon>ucID.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucMainn.resx">
+      <DependentUpon>ucMainn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucPromissory.resx">
+      <DependentUpon>ucPromissory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCchild\GetInfo\ucSOA.resx">
+      <DependentUpon>ucSOA.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCchild\SchoolPersonnel\ucAcademic.resx">
       <DependentUpon>ucAcademic.cs</DependentUpon>
@@ -347,7 +374,9 @@
   <ItemGroup>
     <None Include="Resources\icons8_Playlist_48px.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\icons8_Prev_48px.png" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
