@@ -47,9 +47,9 @@
             this.Title.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Title.Location = new System.Drawing.Point(46, 42);
             this.Title.Name = "Title";
-            this.Title.Size = new System.Drawing.Size(293, 40);
+            this.Title.Size = new System.Drawing.Size(225, 40);
             this.Title.TabIndex = 6;
-            this.Title.Text = "Upcoming Events";
+            this.Title.Text = "Administrator";
             // 
             // ucAdmin
             // 

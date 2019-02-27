@@ -26,6 +26,28 @@ namespace KioskFINALFINAL.UC
                 Form1.Instance.PnlContainer.Controls.Add(main);
             }
             Form1.Instance.PnlContainer.Controls["ucMain"].BringToFront();
+
+           
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            ucAcademic1.BringToFront();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ucNonAcademic1.BringToFront();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            ucAdmin1.BringToFront();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            ucPrincipal1.BringToFront();
         }
     }
 }

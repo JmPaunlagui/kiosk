@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KioskFINALFINAL.UCchild.SchoolPersonnels
+namespace KioskFINALFINAL.UCchild.SchoolPersonnel.ucAcademicNamesAndInfo
 {
-    public partial class ucAcademic : UserControl
+    public partial class Mercado : UserControl
     {
-        public ucAcademic()
+        public Mercado()
         {
             InitializeComponent();
         }

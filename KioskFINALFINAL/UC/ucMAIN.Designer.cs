@@ -153,9 +153,9 @@
             this.label4.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(103, 4);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(161, 40);
+            this.label4.Size = new System.Drawing.Size(54, 40);
             this.label4.TabIndex = 17;
-            this.label4.Text = "About STI";
+            this.label4.Text = "STI";
             this.label4.Click += new System.EventHandler(this.panelASTI_Click);
             // 
             // panelSP
@@ -190,9 +190,9 @@
             this.label3.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(105, 4);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(299, 40);
+            this.label3.Size = new System.Drawing.Size(286, 40);
             this.label3.TabIndex = 16;
-            this.label3.Text = "School Personnels";
+            this.label3.Text = "School Personnel";
             this.label3.Click += new System.EventHandler(this.panelSP_Click);
             // 
             // label17

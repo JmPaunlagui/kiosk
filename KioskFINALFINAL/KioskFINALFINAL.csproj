@@ -12,6 +12,23 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\johnp\Desktop\Kiosk\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>http://localhost/KioskFINALFINAL/</UpdateUrl>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -31,6 +48,18 @@
     <DefineConstants>TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F1577002F1C98B189DAAC4D3E39928D7DC2CE14B</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>KioskFINALFINAL_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -90,28 +119,136 @@
     <Compile Include="UCchild\Calendar\ucUPCOMINGE.Designer.cs">
       <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucAcademic.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademic.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucAcademic.Designer.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademic.Designer.cs">
       <DependentUpon>ucAcademic.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucAdmin.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Abraham.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucAdmin.Designer.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Abraham.Designer.cs">
+      <DependentUpon>Abraham.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Asia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Asia.Designer.cs">
+      <DependentUpon>Asia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Barundia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Barundia.Designer.cs">
+      <DependentUpon>Barundia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Belarmino.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Belarmino.Designer.cs">
+      <DependentUpon>Belarmino.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bete.Designer.cs">
+      <DependentUpon>Bete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bitancor.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bitancor.Designer.cs">
+      <DependentUpon>Bitancor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Calinagan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Calinagan.Designer.cs">
+      <DependentUpon>Calinagan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Elag.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Elag.Designer.cs">
+      <DependentUpon>Elag.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Esguerra.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Esguerra.Designer.cs">
+      <DependentUpon>Esguerra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Evangelista.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Evangelista.Designer.cs">
+      <DependentUpon>Evangelista.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Geluz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Geluz.Designer.cs">
+      <DependentUpon>Geluz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Logo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Logo.Designer.cs">
+      <DependentUpon>Logo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Marcelo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Marcelo.Designer.cs">
+      <DependentUpon>Marcelo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mayuga.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mayuga.Designer.cs">
+      <DependentUpon>Mayuga.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mercado.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mercado.Designer.cs">
+      <DependentUpon>Mercado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Narsolis.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Narsolis.Designer.cs">
+      <DependentUpon>Narsolis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Ortega.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Ortega.Designer.cs">
+      <DependentUpon>Ortega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Puyod.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Puyod.Designer.cs">
+      <DependentUpon>Puyod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAdmin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\SchoolPersonnel\ucAdmin.Designer.cs">
       <DependentUpon>ucAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucNonAcademic.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucNonAcademic.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucNonAcademic.Designer.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucNonAcademic.Designer.cs">
       <DependentUpon>ucNonAcademic.cs</DependentUpon>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucPrincipal.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucPrincipal.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UCchild\SchoolPersonnels\ucPrincipal.Designer.cs">
+    <Compile Include="UCchild\SchoolPersonnel\ucPrincipal.Designer.cs">
       <DependentUpon>ucPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="UC\ucA.cs">
@@ -181,16 +318,16 @@
     <EmbeddedResource Include="UCchild\Calendar\ucUPCOMINGE.resx">
       <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnels\ucAcademic.resx">
+    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucAcademic.resx">
       <DependentUpon>ucAcademic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnels\ucAdmin.resx">
+    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucAdmin.resx">
       <DependentUpon>ucAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnels\ucNonAcademic.resx">
+    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucNonAcademic.resx">
       <DependentUpon>ucNonAcademic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UCchild\SchoolPersonnels\ucPrincipal.resx">
+    <EmbeddedResource Include="UCchild\SchoolPersonnel\ucPrincipal.resx">
       <DependentUpon>ucPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UC\ucA.resx">
@@ -211,6 +348,7 @@
     <EmbeddedResource Include="UC\ucSP.resx">
       <DependentUpon>ucSP.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="KioskFINALFINAL_TemporaryKey.pfx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -283,6 +421,18 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="UCchild\GetInfo\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
