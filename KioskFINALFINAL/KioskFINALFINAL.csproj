@@ -119,119 +119,47 @@
     <Compile Include="UCchild\Calendar\ucUPCOMINGE.Designer.cs">
       <DependentUpon>ucUPCOMINGE.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCchild\GetInfo\ucClearance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucClearance.Designer.cs">
+      <DependentUpon>ucClearance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucExamPermit.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucExamPermit.Designer.cs">
+      <DependentUpon>ucExamPermit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucGoodMoral.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucGoodMoral.Designer.cs">
+      <DependentUpon>ucGoodMoral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucID.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucID.Designer.cs">
+      <DependentUpon>ucID.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucPromissory.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\ucPromissory.Designer.cs">
+      <DependentUpon>ucPromissory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\usSOA.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCchild\GetInfo\usSOA.Designer.cs">
+      <DependentUpon>usSOA.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCchild\SchoolPersonnel\ucAcademic.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UCchild\SchoolPersonnel\ucAcademic.Designer.cs">
       <DependentUpon>ucAcademic.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Abraham.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Abraham.Designer.cs">
-      <DependentUpon>Abraham.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Asia.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Asia.Designer.cs">
-      <DependentUpon>Asia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Barundia.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Barundia.Designer.cs">
-      <DependentUpon>Barundia.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Belarmino.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Belarmino.Designer.cs">
-      <DependentUpon>Belarmino.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bete.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bete.Designer.cs">
-      <DependentUpon>Bete.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bitancor.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Bitancor.Designer.cs">
-      <DependentUpon>Bitancor.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Calinagan.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Calinagan.Designer.cs">
-      <DependentUpon>Calinagan.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Elag.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Elag.Designer.cs">
-      <DependentUpon>Elag.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Esguerra.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Esguerra.Designer.cs">
-      <DependentUpon>Esguerra.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Evangelista.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Evangelista.Designer.cs">
-      <DependentUpon>Evangelista.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Geluz.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Geluz.Designer.cs">
-      <DependentUpon>Geluz.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Logo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Logo.Designer.cs">
-      <DependentUpon>Logo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Marcelo.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Marcelo.Designer.cs">
-      <DependentUpon>Marcelo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mayuga.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mayuga.Designer.cs">
-      <DependentUpon>Mayuga.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mercado.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Mercado.Designer.cs">
-      <DependentUpon>Mercado.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Narsolis.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Narsolis.Designer.cs">
-      <DependentUpon>Narsolis.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Ortega.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Ortega.Designer.cs">
-      <DependentUpon>Ortega.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Puyod.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UCchild\SchoolPersonnel\ucAcademicNamesAndInfo\Puyod.Designer.cs">
-      <DependentUpon>Puyod.cs</DependentUpon>
     </Compile>
     <Compile Include="UCchild\SchoolPersonnel\ucAdmin.cs">
       <SubType>UserControl</SubType>
@@ -419,9 +347,7 @@
   <ItemGroup>
     <None Include="Resources\icons8_Playlist_48px.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UCchild\GetInfo\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
@@ -433,6 +359,24 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABRAHAM_1403.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BARUNDIA_1028.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BELARMINO_1485.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BETE_1265.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CALINAGAN_1513.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NARSOLIS MARICAR_8195.JPG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -30,16 +30,16 @@
         {
             this.components = new System.ComponentModel.Container();
             this.PanelRGBstrip = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.panelContainer = new System.Windows.Forms.Panel();
-            this.ucMAIN1 = new KioskFINALFINAL.UC.ucMAIN();
-            this.ucGI1 = new KioskFINALFINAL.UC.ucGI();
-            this.ucC1 = new KioskFINALFINAL.UC.ucC();
-            this.ucSP1 = new KioskFINALFINAL.UC.ucSP();
-            this.ucASTI1 = new KioskFINALFINAL.UC.ucASTI();
             this.R = new System.Windows.Forms.Timer(this.components);
             this.G = new System.Windows.Forms.Timer(this.components);
             this.B = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
+            this.ucMAIN1 = new KioskFINALFINAL.UC.ucMAIN();
+            this.ucASTI1 = new KioskFINALFINAL.UC.ucASTI();
+            this.ucSP1 = new KioskFINALFINAL.UC.ucSP();
+            this.ucC1 = new KioskFINALFINAL.UC.ucC();
+            this.ucGI1 = new KioskFINALFINAL.UC.ucGI();
             this.PanelRGBstrip.SuspendLayout();
             this.panelContainer.SuspendLayout();
             this.SuspendLayout();
@@ -54,6 +54,16 @@
             this.PanelRGBstrip.Size = new System.Drawing.Size(1280, 30);
             this.PanelRGBstrip.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(451, 3);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(386, 23);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "label1";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // panelContainer
             // 
             this.panelContainer.Controls.Add(this.ucMAIN1);
@@ -66,46 +76,6 @@
             this.panelContainer.Name = "panelContainer";
             this.panelContainer.Size = new System.Drawing.Size(1280, 690);
             this.panelContainer.TabIndex = 1;
-            // 
-            // ucMAIN1
-            // 
-            this.ucMAIN1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucMAIN1.Location = new System.Drawing.Point(0, 0);
-            this.ucMAIN1.Name = "ucMAIN1";
-            this.ucMAIN1.Size = new System.Drawing.Size(1280, 690);
-            this.ucMAIN1.TabIndex = 0;
-            // 
-            // ucGI1
-            // 
-            this.ucGI1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucGI1.Location = new System.Drawing.Point(0, 0);
-            this.ucGI1.Name = "ucGI1";
-            this.ucGI1.Size = new System.Drawing.Size(1280, 690);
-            this.ucGI1.TabIndex = 1;
-            // 
-            // ucC1
-            // 
-            this.ucC1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucC1.Location = new System.Drawing.Point(0, 0);
-            this.ucC1.Name = "ucC1";
-            this.ucC1.Size = new System.Drawing.Size(1280, 690);
-            this.ucC1.TabIndex = 2;
-            // 
-            // ucSP1
-            // 
-            this.ucSP1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucSP1.Location = new System.Drawing.Point(0, 0);
-            this.ucSP1.Name = "ucSP1";
-            this.ucSP1.Size = new System.Drawing.Size(1280, 690);
-            this.ucSP1.TabIndex = 3;
-            // 
-            // ucASTI1
-            // 
-            this.ucASTI1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ucASTI1.Location = new System.Drawing.Point(0, 0);
-            this.ucASTI1.Name = "ucASTI1";
-            this.ucASTI1.Size = new System.Drawing.Size(1280, 690);
-            this.ucASTI1.TabIndex = 4;
             // 
             // R
             // 
@@ -125,15 +95,46 @@
             this.B.Interval = 30;
             this.B.Tick += new System.EventHandler(this.B_Tick);
             // 
-            // label1
+            // ucMAIN1
             // 
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(451, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(386, 23);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ucMAIN1.BackColor = System.Drawing.Color.White;
+            this.ucMAIN1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucMAIN1.Location = new System.Drawing.Point(0, 0);
+            this.ucMAIN1.Name = "ucMAIN1";
+            this.ucMAIN1.Size = new System.Drawing.Size(1280, 690);
+            this.ucMAIN1.TabIndex = 0;
+            // 
+            // ucASTI1
+            // 
+            this.ucASTI1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucASTI1.Location = new System.Drawing.Point(0, 0);
+            this.ucASTI1.Name = "ucASTI1";
+            this.ucASTI1.Size = new System.Drawing.Size(1280, 690);
+            this.ucASTI1.TabIndex = 4;
+            // 
+            // ucSP1
+            // 
+            this.ucSP1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucSP1.Location = new System.Drawing.Point(0, 0);
+            this.ucSP1.Name = "ucSP1";
+            this.ucSP1.Size = new System.Drawing.Size(1280, 690);
+            this.ucSP1.TabIndex = 3;
+            // 
+            // ucC1
+            // 
+            this.ucC1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucC1.Location = new System.Drawing.Point(0, 0);
+            this.ucC1.Name = "ucC1";
+            this.ucC1.Size = new System.Drawing.Size(1280, 690);
+            this.ucC1.TabIndex = 2;
+            // 
+            // ucGI1
+            // 
+            this.ucGI1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.ucGI1.Location = new System.Drawing.Point(0, 0);
+            this.ucGI1.Name = "ucGI1";
+            this.ucGI1.Size = new System.Drawing.Size(1280, 690);
+            this.ucGI1.TabIndex = 1;
             // 
             // Form1
             // 
@@ -144,6 +145,7 @@
             this.Controls.Add(this.PanelRGBstrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.PanelRGBstrip.ResumeLayout(false);

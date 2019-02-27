@@ -63,6 +63,56 @@ namespace KioskFINALFINAL.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ABRAHAM_1403 {
+            get {
+                object obj = ResourceManager.GetObject("ABRAHAM_1403", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BARUNDIA_1028 {
+            get {
+                object obj = ResourceManager.GetObject("BARUNDIA_1028", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BELARMINO_1485 {
+            get {
+                object obj = ResourceManager.GetObject("BELARMINO_1485", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap BETE_1265 {
+            get {
+                object obj = ResourceManager.GetObject("BETE_1265", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CALINAGAN_1513 {
+            get {
+                object obj = ResourceManager.GetObject("CALINAGAN_1513", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_Administrator_Male_48px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Administrator_Male_48px", resourceCulture);
@@ -246,6 +296,16 @@ namespace KioskFINALFINAL.Properties {
         internal static System.Drawing.Bitmap icons8_Search_Property_100px {
             get {
                 object obj = ResourceManager.GetObject("icons8_Search_Property_100px", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap NARSOLIS_MARICAR_8195 {
+            get {
+                object obj = ResourceManager.GetObject("NARSOLIS MARICAR_8195", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
